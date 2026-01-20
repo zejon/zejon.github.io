@@ -6,12 +6,12 @@ const cacheName = 'myFilesToCache-v1';
 // List of essential files and routes to cache on installation.
 const filesToCache = [
     '/', // Cache the main index route
-    '/style.css',
-    '/translate.js',
+    '/static/style.css',
+    '/static/translate.js',
     
     // Example common asset types
-    '/android-chrome-192x192.png',
-    '/android-chrome-512x512.png',
+    '/static/android-chrome-192x192.png',
+    '/static/android-chrome-512x512.png',
 
 ];
 
