@@ -4,13 +4,13 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 from flask import Flask, render_template, request, jsonify, send_from_directory
 import os
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-import cv2
-import numpy as np
-from PIL import Image
-import io
-import tempfile
+# import tensorflow as tf
+# from tensorflow.keras.models import load_model
+# import cv2
+# import numpy as np
+# from PIL import Image
+# import io
+# import tempfile
 
 
 app = Flask(__name__)
